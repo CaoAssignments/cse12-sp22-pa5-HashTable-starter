@@ -137,6 +137,7 @@ public class PublicTester {
     }
 
     // Get total number of species at a sanctuary
+    @Test
     public void TestGetTotalSpecies(){
         Sanctuary sanct1 = new Sanctuary(1000, 5);
         sanct1.sanctuary.put("Koala", 55);
